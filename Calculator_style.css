@@ -1,0 +1,35 @@
+body{
+    height:100%;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #e4fcf8 0%,#bff9f0 23%,#9fefe2 58%,#2bedd3 100%);
+}
+button{
+    padding: 20px;
+    background-color: rgb(0, 129, 180);
+    font-size: 20px;
+    border: none;
+    position: relative;
+    width: 60px;  
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(67, 219, 125);
+}
+.cal-container{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textview{
+    width: 260px;    
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    border:1px solid #058a78;
+    border-radius: 10px ;
+}
+.textview:focus{
+    outline: none ; 
+}
